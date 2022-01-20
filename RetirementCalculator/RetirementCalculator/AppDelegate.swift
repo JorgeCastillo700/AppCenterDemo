@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        AppCenter.start(withAppSecret: "18121a9d-7148-4778-be82-194802170eae", services: [Analytics.self, Crashes.self])
+        AppCenter.start(withAppSecret: "c7636afd-5b2d-40ee-8d06-33809f8879c2", services: [Analytics.self, Crashes.self])
         return true
     }
 
