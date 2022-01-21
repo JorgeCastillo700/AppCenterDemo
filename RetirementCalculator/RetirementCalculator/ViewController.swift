@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     @IBAction func didTouch(_ sender: Any) {
         let firstName: String? = firstNameTextView.text
         let lastName: String? = lastNameTextView.text
-        
+        // Test comment
         let properties = ["firstName": firstName!, "lastName": lastName!]
         
         Analytics.trackEvent("button_was_pressed", withProperties: properties)
